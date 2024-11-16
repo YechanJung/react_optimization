@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.1"],\
           ["@vitejs/plugin-react", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:4.3.3"],\
           ["classnames", "npm:2.5.1"],\
+          ["date-fns", "npm:4.1.0"],\
           ["eslint", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:9.14.0"],\
           ["eslint-config-prettier", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:9.1.0"],\
           ["eslint-config-react-app", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:7.0.1"],\
@@ -4995,6 +4996,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["date-fns", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/date-fns-npm-4.1.0-764604ee0f-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["dayjs", [\
       ["npm:1.11.13", {\
         "packageLocation": "../../../.yarn/berry/cache/dayjs-npm-1.11.13-d478bb9479-10c0.zip/node_modules/dayjs/",\
@@ -7567,6 +7577,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.1"],\
           ["@vitejs/plugin-react", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:4.3.3"],\
           ["classnames", "npm:2.5.1"],\
+          ["date-fns", "npm:4.1.0"],\
           ["eslint", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:9.14.0"],\
           ["eslint-config-prettier", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:9.1.0"],\
           ["eslint-config-react-app", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:7.0.1"],\

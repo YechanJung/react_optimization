@@ -14,7 +14,7 @@ function FullScreenMessage({ type }: FullScreenMessageProps) {
         <Heart />
       ) : type === 'error' ? (
         <>
-          <Heart />
+          <Error />
           에러
         </>
       ) : (
