@@ -46,6 +46,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:18.3.1"],\
           ["sass", "npm:1.80.7"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:8.14.0"],\
           ["vite", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:5.4.11"]\
@@ -7591,6 +7592,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:18.3.1"],\
           ["sass", "npm:1.80.7"],\
+          ["swiper", "npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:8.14.0"],\
           ["vite", "virtual:e65117f6b881b1db92dbf1b6662708cf0d8440c58cbd6e33c639c8f7cf306c08ec01450c859570b24058fb27f5926b3edccc714f99ef462835e6b5a042b9b3ec#npm:5.4.11"]\
@@ -8244,6 +8246,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ssr-window", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/ssr-window-npm-4.0.2-01f9c0151e-10c0.zip/node_modules/ssr-window/",\
+        "packageDependencies": [\
+          ["ssr-window", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ssri", [\
       ["npm:10.0.6", {\
         "packageLocation": "../../../.yarn/berry/cache/ssri-npm-10.0.6-6b8eaec5ce-10c0.zip/node_modules/ssri/",\
@@ -8426,6 +8437,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-10c0.zip/node_modules/supports-preserve-symlinks-flag/",\
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:9.4.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/swiper-npm-9.4.1-38d46d35a3-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:9.4.1"],\
+          ["ssr-window", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
